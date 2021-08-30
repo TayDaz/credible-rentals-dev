@@ -1,0 +1,18 @@
+div.uploads-page__wrapper {
+	margin: 0;
+	margin-top: 3px;
+	padding: 0;
+	// overflow-y: hidden;
+	// border: 1px solid black;
+
+	// & > div.sidebar__wrapper {
+	// 	height: calc(100vh - 55px);
+	// }
+
+	& > div.content__container {
+		margin: 0;
+		// padding-bottom: 1vh;
+		overflow-y: auto;
+		height: calc(100vh - 117px);
+	}
+}

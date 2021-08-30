@@ -1,0 +1,52 @@
+div.custom-carousel__wrapper {
+	div.p-carousel-content {
+		div.p-carousel-container {
+			button.p-carousel-prev {
+				position: absolute;
+				top: 40%;
+				z-index: 10;
+				background: none;
+				background-color: rgba(251, 99, 133, 0.5);
+				color: #fb6385;
+				// opacity: 0.5;
+				&:hover {
+					background-color: rgba(251, 99, 133, 0.9);
+					color: #fa1748;
+				}
+			}
+			button.p-carousel-next {
+				position: absolute;
+				top: 40%;
+				right: 0;
+				z-index: 10;
+				background: none;
+				background-color: rgba(251, 99, 133, 0.5);
+				color: #fb6385;
+
+				&:hover {
+					background-color: rgba(251, 99, 133, 0.9);
+					color: #fa1748;
+				}
+			}
+
+			display: inline;
+			position: relative;
+			div.p-carousel-items-content {
+				div.p-carousel-items-container {
+					div.product-item-content {
+						border: none;
+						margin: 0;
+						padding: 0;
+						img.product-image {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		ul.p-carousel-indicators {
+			display: none;
+		}
+	}
+}

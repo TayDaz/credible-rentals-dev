@@ -1,0 +1,12 @@
+// .dropdown-demo .p-dropdown {
+// 	width: 14rem;
+// }
+
+.country-mobile-number.country-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	& img.flag {
+		width: 17px;
+	}
+}

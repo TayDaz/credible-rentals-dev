@@ -1,0 +1,19 @@
+// div.search-filter__container {
+// 	& > div.filter__container {
+// 		div.filter-items__wrapper {
+// 			& > div.filter-item {
+// 				width: 100%;
+// 				flex: 1;
+// 				background: blue;
+// 			}
+// 		}
+// 	}
+// }
+
+div.filter-items__wrapper {
+	& > div.filter-item {
+		width: 100%;
+		flex: 1;
+		background: blue;
+	}
+}

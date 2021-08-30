@@ -1,0 +1,96 @@
+div.product-modal1__container {
+  /* Extra small devices (phones, 600px and down) */
+  width: 100vw;
+  height: 100vh;
+  z-index: 10001;
+  background-color: rgba(206, 224, 208, 0.65);
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  color: azure;
+  padding: 1rem;
+
+  & > div.close-button__container {
+    height: auto;
+  }
+
+  & > div.content__container {
+    // flex: 1;
+    // max-width: 500px;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 2.5em;
+
+    & > div.navigation-buttons {
+      flex: 1;
+
+      & > div.button__wrapper {
+        width: 50px;
+        height: 50px;
+        background: #ffffff;
+        border-radius: 50%;
+      }
+    }
+
+    & > div.product-image-info__container {
+      width: clamp(300px, 60%, 700px);
+      // height: 80vh;
+      // padding-bottom: 15vh;
+      height: auto;
+      overflow-y: scroll;
+
+      & > div.product-image__container {
+        background: #000000;
+      }
+
+      & > div.product-info__container {
+        padding: 1em;
+      }
+    }
+  }
+
+  // @media only screen and (max-width: 600px) {
+  // 	& > div.content__container {
+  // 		flex: 1;
+  // 		// width: 90vw;
+  // 		height: 100%;
+  // 		overflow-y: auto;
+  // 		padding-bottom: 5vh;
+  // 	}
+  // }
+
+  // /* Small devices (portrait tablets and large phones, 600px and up) */
+  // @media only screen and (min-width: 600px) {
+  // }
+
+  // /* Medium devices (landscape tablets, 768px and up) */
+  // @media only screen and (min-width: 768px) {
+  // 	& > div.content__container {
+  // 		flex: 1;
+  // 		width: 90vw;
+  // 		// height: 100%;
+  // 		// overflow-y: auto;
+  // 		padding-bottom: 5vh;
+  // 	}
+  // }
+
+  // /* Large devices (laptops/desktops, 992px and up) */
+  // @media only screen and (min-width: 992px) {
+  // 	& > div.content__container {
+  // 		flex: 1;
+  // 		width: 90vw;
+  // 		height: 100%;
+  // 		overflow-y: auto;
+
+  // 		// & > div.product-image-info__container {
+  // 		// 	// height: 100%;
+  // 		// 	// overflow-y: auto;
+  // 		// }
+  // 	}
+  // }
+
+  // /* Extra large devices (large laptops and desktops, 1200px and up) */
+  // @media only screen and (min-width: 1200px) {
+  // }
+}

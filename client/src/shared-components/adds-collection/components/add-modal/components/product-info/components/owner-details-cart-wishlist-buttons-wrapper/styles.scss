@@ -1,0 +1,8 @@
+div.owner-details__container {
+  padding: 1rem;
+
+  & > span.main-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

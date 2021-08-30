@@ -1,0 +1,33 @@
+/* body {
+	overflow-y: hidden;
+} */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 0.5rem;
+		height: 0.5rem;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #8ca3a5;
+		border-radius: 10px;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #18595d;
+		border-radius: 10px;
+	}
+
+	/* Handle on hover */
+	// ::-webkit-scrollbar-thumb:hover {
+	// 	background: #555;
+	// }
+}

@@ -1,0 +1,18 @@
+div.new-uploads__wrapper {
+  margin: 0;
+  overflow-y: auto;
+  padding-bottom: 2vh;
+  height: 80vh;
+
+  & > form.form__container {
+    margin: 0;
+  }
+
+  & div.new-upload__icon__container {
+    margin: 0;
+  }
+
+  & div.new-uploads__form__container {
+    margin: 0;
+  }
+}

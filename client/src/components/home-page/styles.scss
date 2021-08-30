@@ -1,0 +1,19 @@
+div.home-page__wrapper {
+	// border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+	margin-top: 3px;
+	background-color: #ffffff;
+	// height: calc(100vh - 115px);
+
+	& > div.content__container {
+		// border: 1px solid green;
+		// margin: -1px;
+		// background-color: cadetblue;
+		height: calc(100vh - 117px);
+		overflow-y: auto;
+
+		& div.container--child {
+			background-color: crimson;
+		}
+	}
+}

@@ -1,0 +1,77 @@
+div.photos__add-photo__container {
+	border: 2px dashed var(--primary-color);
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin: 15px;
+	position: relative;
+
+	// & img.preview-image__container {
+	// 	width: 150px;
+	// 	padding: 5px;
+	// }
+
+	// & > .photo-delete-icon {
+	// 	position: absolute;
+	// 	top: -20px;
+	// 	right: -20px;
+	// 	cursor: pointer;
+	// }
+}
+
+div.photos__add-photo__preview__container {
+	border: 2px dashed var(--primary-color);
+	border-radius: 5px;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	position: relative;
+
+	& img.preview-image__container {
+		width: 150px;
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	& > .photo-delete-icon {
+		position: absolute;
+		top: -20px;
+		right: -20px;
+		cursor: pointer;
+	}
+}
+
+div.add-photo-container__dialog-header__container {
+	display: flex;
+	justify-content: center;
+}
+
+div.add-photo-container__dialog-body__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	& > .image-title {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	& > img.image-preview {
+		width: 45vw;
+		margin-top: 10px;
+	}
+}
+
+div.add-photo-container__dialog-footer__container {
+	margin-top: 10px;
+	display: flexbox;
+	justify-content: start;
+}

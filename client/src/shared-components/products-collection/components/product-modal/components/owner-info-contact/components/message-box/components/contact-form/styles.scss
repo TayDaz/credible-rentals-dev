@@ -1,0 +1,6 @@
+div.contact-form__container {
+  & > div.loading-screen__wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}

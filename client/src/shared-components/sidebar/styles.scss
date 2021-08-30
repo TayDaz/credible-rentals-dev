@@ -1,0 +1,117 @@
+div.custom-page__sidebar__container {
+	// border: 1px solid red;
+	background-image: linear-gradient(to right, #57cad4, #87d0c3);
+	width: 200px;
+	height: calc(100vh - 120px);
+	overflow-y: auto;
+	padding: 0;
+	padding: 0rem 0.3rem 0rem 0.3rem;
+	// transition: 0.3s;
+	// margin-bottom: 0.5rem;
+
+	& > div.link__container {
+		// background-color: chocolate;
+		padding: 0;
+		cursor: pointer;
+		// flex: 1;
+		margin-top: 0.3rem;
+		// margin-bottom: 0.3rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+
+		&.selected {
+			color: white;
+			background-color: #18595d;
+			font-weight: 700;
+			border-radius: 0.5rem;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		// &:last-child {
+		// 	margin-bottom: 0;
+		// }
+
+		& > div.icon__wrapper {
+			// height: 10px;
+			& > img {
+				height: 25px;
+			}
+		}
+
+		& > div.text__wrapper {
+			margin-left: 5px;
+			font-size: 1rem;
+		}
+	}
+}
+
+div.p-sidebar.uploads-page__sidebar__mobile-wrapper {
+	width: 250px;
+	// display: flex;
+	& > div.p-sidebar-header {
+		display: none;
+	}
+	& > div.p-sidebar-content {
+		padding: 0;
+
+		// div.home-page__sidebar__mobile-wrapper {
+		// border: 1px solid red;
+		background-image: linear-gradient(to right, #57cad4, #87d0c3);
+		// width: 200px;
+		// height: calc(100vh - 120px);
+		overflow-y: auto;
+		padding: 0;
+		padding: 0rem 0.3rem 0rem 0.3rem;
+		display: flex;
+		height: 100vh;
+		flex-direction: column;
+		// transition: 0.3s;
+		// margin-bottom: 0.5rem;
+
+		& > div.link__container {
+			// background-color: chocolate;
+			padding: 0;
+			cursor: pointer;
+			// flex: 1;
+			margin-top: 0.3rem;
+			// margin-bottom: 0.3rem;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+
+			&.selected {
+				color: white;
+				background-color: #18595d;
+				font-weight: 700;
+				border-radius: 0.5rem;
+				// transition: 0.4s ;
+			}
+
+			.hidden {
+				display: none;
+			}
+
+			// &:last-child {
+			// 	margin-bottom: 0;
+			// }
+
+			& > div.icon__wrapper {
+				// height: 10px;
+				margin-left: 0.5rem;
+				& > img {
+					height: 28px;
+				}
+			}
+
+			& > div.text__wrapper {
+				margin-left: 5px;
+				font-size: 1rem;
+			}
+		}
+		// }
+	}
+}
+
+// }

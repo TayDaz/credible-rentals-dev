@@ -1,0 +1,13 @@
+div.profile-page__avatar__parent-wrapper {
+	position: relative;
+	// border: 1px solid black;
+
+	// padding-top: 200px;
+
+	div.profile-page__avatar__wrapper {
+		position: absolute;
+		top: -100px;
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,21 @@
+div.cart-item__container {
+  // background: gray;
+  // width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #18595d;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+  div.product-image-info__container {
+    div.image__wrapper {
+      width: 100px;
+
+      & > img {
+        width: auto;
+        height: auto;
+        max-width: 100px;
+        max-height: 70px;
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+div.carousel__container {
+	overflow-x: hidden;
+	position: relative;
+
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+		div.images_container {
+			// overflow-x: clip;
+			//
+			transition: 0.5s ease-in-out;
+			div.image__container {
+				// border: 1px solid black;
+				// width: 100vw;
+
+				& > img {
+					width: 100vw;
+					// height: 200px;
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 600px) {
+		div.images_container {
+			// overflow-x: hidden;
+			//
+			transition: 0.5s ease-in-out;
+			div.image__container {
+				// border: 1px solid black;
+				// width: 50vw;
+
+				& > img {
+					width: 50vw;
+					// height: 200px;
+				}
+			}
+		}
+	}
+
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (min-width: 768px) {
+		div.images_container {
+			// overflow-x: hidden;
+			//
+			transition: 0.5s ease-in-out;
+			div.image__container {
+				// border: 1px solid black;
+				// width: 50vw;
+
+				& > img {
+					width: 50vw;
+					// height: 200px;
+				}
+			}
+		}
+	}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+		div.images_container {
+			// overflow-x: hidden;
+			//
+			transition: 0.5s ease-in-out;
+			div.image__container {
+				// border: 1px solid black;
+				// width: 33.33vw;
+
+				& > img {
+					width: 25vw;
+					// height: 200px;
+				}
+			}
+		}
+	}
+
+	// div.images_container {
+	// 	// overflow-x: hidden;
+	// 	//
+	// 	transition: 0.5s ease-in-out;
+	// 	div.image__container {
+	// 		// border: 1px solid black;
+	// 		// flex: 1;
+
+	// 		& > img {
+	// 			width: 350px;
+	// 			// height: 200px;
+	// 		}
+	// 	}
+	// }
+
+	& > button.nav-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 45%;
+		background-color: rgba(255, 255, 255, 0.705);
+		border: none;
+		height: 3rem;
+		width: 3rem;
+		border-radius: 50%;
+	}
+
+	& > button.previous-button {
+		left: 2%;
+	}
+
+	& > button.next-button {
+		right: 2%;
+	}
+}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {
+// 	div.images__container {
+// 		width: 100%;
+// 		& > div.image__container {
+// 			width: 50%;
+// 		}
+// 	}
+// }
+
+// // /* Medium devices (landscape tablets, 768px and up) */
+// // @media only screen and (min-width: 768px) {
+// // 	.example {
+// // 		background: blue;
+// // 	}
+// // }
+
+// // /* Large devices (laptops/desktops, 992px and up) */
+// // @media only screen and (min-width: 992px) {
+// // 	.example {
+// // 		background: orange;
+// // 	}
+// // }
+
+// // /* Extra large devices (large laptops and desktops, 1200px and up) */
+// // @media only screen and (min-width: 1200px) {
+// // 	.example {
+// // 		background: pink;
+// // 	}
+// // }

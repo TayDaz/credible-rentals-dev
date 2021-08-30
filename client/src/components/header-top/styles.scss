@@ -1,0 +1,209 @@
+div.header-top__container {
+	height: 70px;
+	color: #1f4444;
+	background-color: #ebf6f5;
+	div.view-desktop__container {
+		width: 100%;
+		& > div.logo__wrapper {
+			flex: 1;
+			cursor: pointer;
+			& > img {
+				width: 80px;
+			}
+		}
+
+		& > div.location__container {
+			flex: 0.7;
+
+			& > div.location__wrapper {
+				height: 45px;
+
+				& > div.location-details__wrapper {
+					color: #1f4444;
+					& > div.location-text {
+						font-size: 0.7rem;
+					}
+
+					& > div.location-city-name {
+						font-size: 0.9rem;
+						font-weight: 700;
+					}
+
+					& > div.location-radius {
+						font-size: 0.8rem;
+						font-weight: bold;
+						color: #f96683;
+					}
+				}
+			}
+		}
+
+		& > div.search-bar__container {
+			flex: 5;
+
+			& > div.search-bar__wrapper {
+				width: 95%;
+				& > input {
+					flex: 11;
+					height: 40px;
+					border-radius: 6px 0px 0px 6px;
+					border: double 3px transparent;
+					background-image: linear-gradient(#ebf6f5, #ebf6f5),
+						linear-gradient(to right, #57cad4, #ffb88d, #f96683);
+					background-origin: border-box;
+					background-clip: padding-box, border-box;
+
+					&:focus-visible {
+						border: 3px solid green;
+					}
+				}
+
+				& > button {
+					flex: 1;
+					border-radius: 0px 6px 6px 0px;
+					background-color: #f96683;
+					border: 3px solid #f96683;
+					cursor: pointer;
+
+					svg > path {
+						stroke: white;
+						stroke-width: 2px;
+					}
+				}
+			}
+		}
+
+		& > div.about-contact-us__container {
+			flex: 1.5;
+
+			& > div.about-contact-us__wrapper {
+				flex: 1;
+
+				& > div.about-us__wrapper,
+				& > div.contact-us__wrapper {
+					font-weight: 500;
+					font-size: 1rem;
+					cursor: pointer;
+				}
+			}
+		}
+
+		& > div.flags__container {
+			flex: 1;
+
+			& > div.flags__wrapper {
+				flex: 1;
+				& > div.uk-flag {
+					& > img {
+						width: 28px;
+						cursor: pointer;
+					}
+				}
+				& > div.separator {
+					font-size: 2rem;
+				}
+
+				& > div.slovakia-flag {
+					img {
+						width: 30px;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+
+		& > div.shopping-basket__container {
+			flex: 1;
+
+			& > div.shopping-basket__wrapper {
+				flex: 1;
+				& > div.shopping-cart-icon__container {
+					flex: 1;
+				}
+
+				& > div.shopping-text__container {
+					flex: 2;
+
+					& > div.text-top {
+						font-size: 0.7rem;
+					}
+
+					& > div.text-bottom {
+						color: #1f4444;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+}
+
+div.header-top__mobile-container {
+	height: 70px;
+	color: #1f4444;
+	background-color: #ebf6f5;
+
+	& > div.header-top__mobile-wrapper {
+		width: 100%;
+
+		& > div.location__container {
+			// 	flex: 0.7;
+			flex: 1;
+
+			& > div.location__wrapper {
+				height: 45px;
+				flex: 1;
+
+				& > div.location-details__wrapper {
+					color: #1f4444;
+					& > div.location-text {
+						font-size: 0.7rem;
+					}
+
+					& > div.location-city-name {
+						font-size: 0.9rem;
+						font-weight: 700;
+					}
+
+					& > div.location-radius {
+						font-size: 0.8rem;
+						font-weight: bold;
+						color: #f96683;
+					}
+				}
+			}
+		}
+
+		& > div.brand-logo__container {
+			flex: 1;
+			& > div.logo__wrapper {
+				cursor: pointer;
+				& > img {
+					width: 80px;
+				}
+			}
+		}
+
+		& > div.cart-language-links__container {
+			& > div.shopping-basket__wrapper {
+				flex: 1;
+				& > div.shopping-cart-icon__container {
+					flex: 1;
+				}
+
+				& > div.shopping-text__container {
+					flex: 2;
+
+					& > div.text-top {
+						font-size: 0.7rem;
+					}
+
+					& > div.text-bottom {
+						color: #1f4444;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+}

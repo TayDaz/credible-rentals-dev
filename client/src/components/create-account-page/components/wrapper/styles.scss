@@ -1,0 +1,24 @@
+div.create-account__wrapper__container {
+	// margin-top: 10000px;
+	height: 100vh;
+	// width: 100%;
+	margin: 0;
+	margin-top: 60px;
+	padding-top: 20px;
+
+	background-image: linear-gradient(
+		to bottom right,
+		#57cad4,
+		#d3dac3,
+		#ffb88d,
+		#fe857b,
+		#f96683
+	);
+	overflow-y: auto;
+	div.children__container {
+		padding: 10px;
+		// max-height: 500px;
+		background-color: white;
+		border-radius: 10px;
+	}
+}

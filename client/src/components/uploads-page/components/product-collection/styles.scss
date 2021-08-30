@@ -1,0 +1,15 @@
+div.product-collection-header__wrapper {
+	width: 100%;
+	// background-color: #57cad4;
+	background-image: linear-gradient(to right, #ffb88d, #f96683);
+	border-radius: 5px;
+	height: 2rem;
+	& > div.product-header {
+		// flex: 1;
+
+		color: #ffffff;
+		font-weight: 500;
+
+		// text-align: center;
+	}
+}
